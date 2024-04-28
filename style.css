@@ -133,7 +133,7 @@ h1 {
 .clock-section {
     display: flex;
     justify-content: center;
-    padding: 6vw 6vw 12vw 6vw; 
+    padding: 6vw 6vw 20vw 6vw; 
     background: linear-gradient(to top, rgba(221,205,65,1) 0%, rgba(221,205,65,1) 50%, #9BBE4F 100%);
     background-color: #ddcd41 ;
     color: rgb(33 39 33);
