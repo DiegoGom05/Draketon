@@ -1,82 +1,134 @@
-body{
+body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    /* background-color: green; */
+    width: 100vw;
 }
-.main-section{
-    background-color:#4eae4e ;
-    min-height: 100vh
+
+.main-section {
+    background-color: #4eae4e;
+    min-height: 40vh;
+    width: 100vw;
 }
-header{
-    font-family:'Courier New', Courier, monospace;
+
+header {
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: space-between;
-    margin: 0px;
-    font-size:  32px;
+    margin: 0;
+    font-size: 6vw; 
     background: linear-gradient(to bottom, #294F27 60%, #4eae4e 100%, #4eae4e 100%);
-    /* background-color: black; */
     color: rgb(255, 255, 255);
-    padding-bottom:  15px;
+    padding-bottom: 1.5vw; 
 }
-.header-info{
-    margin: 10px 10px;
+
+.header-info {
+    margin: 1vw;
 }
-.title{
+
+.title {
     display: flex;
     justify-content: center;
-    font-size:  72px;
+    font-size: 5vw; 
 }
-#logo{
-    width: 800px;
+
+#logo {
+    width: 80%; 
+    max-width: 800px; /* Máximo ancho */
 }
+
 #flyingDragon{
-    width: auto;
-    height: 200px;
-   
+    width: 100%;
+    max-width: 10em;
+    height: 100%;
 }
-#dragoncoin{
+#dragoncoin {
     width: auto;
-    height: 300px;
-   
+    height: auto;
+    max-width: 100%; 
+    max-height: 200px;  
 }
-h1{
-    font-family: dragonforce ;
+
+h1 {
+    font-family: dragonforce;
     font-weight: 500;
-    letter-spacing:  10px;
+    letter-spacing: 0.2em; 
     margin: 0;
     color: rgb(255, 255, 0);
-    text-shadow: 8px  5px 5px black;
+    text-shadow: 0.4vw 0.25vw 0.25vw black; 
 }
-.img-container{
+
+.img-container {
     display: flex;
     justify-content: center;
 }
-.info-section{
+
+.info-section {
     background: linear-gradient(to bottom, #4eae4e 10%, #9BBE4F 100%, #9BBE4F 100%);
 }
-.info{
-    margin: 78px;
-    font-size: 56px;
+
+.info {
+    margin: 5vw;  
+    font-size: 3.2vw;  
     text-align: justify;
+    color: aliceblue;
 }
-.coming-soon-section{
+
+.coming-soon-section {
     display: flex;
     justify-content: center;
+    margin-left: 5em;
 }
-.coming-soon{
+
+.coming-soon {
     color: white;
-    margin: 78px;
-    margin-left: 450px;
-    font-size: 56px;
+    margin: 3vw; 
+   
+    font-size: 5vw; 
     text-align: justify;
 }
-.clock-section{
-    margin: 50px;
-    border: solid black;
-    padding: 50px;
+
+.links-section {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: #9BBE4F;
+    font-size: 3rem;
 }
+
+.twitter-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.telegram-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.twitter-logo{
+    width: 2em;
+}
+
+.telegram-logo{
+    width: 2em;
+
+}
+
+.clock-section {
+    margin: 5vw; 
+    border: solid black;
+    padding: 5vw; 
+}
+
+
 @font-face {
     font-family: dragonforce;
     src: url(./Fonts/DragonForcE.ttf);
-  }
+}
