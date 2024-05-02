@@ -18,7 +18,7 @@ let x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.querySelector("#timeout").innerHTML = "Now It's Available!";
+    document.querySelector("#timeout").innerHTML = "Now Available!";
   }
 }, 1000);
  
