@@ -17,6 +17,7 @@ body {
     width: 100vw;
 }
 
+
 header {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -64,7 +65,9 @@ h1 {
 
 .img-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .info-section {
@@ -75,10 +78,10 @@ h1 {
 }
 
 .info {
-    margin: 5vw;  
+    margin:  1vw 5vw 5vw 5vw;  
     font-size: 3.2vw;  
     text-align: center;
-    color: rgb(221, 236, 225);
+    color: rgb(255, 255, 255);
      
 }
 
@@ -104,7 +107,8 @@ h1 {
     display: flex;
     justify-content: center;
     color: aliceblue;
-    background-color: rgb(227, 248, 218);
+    background-color:  rgb(255, 255, 255);
+    padding-bottom: 5vh;
 
     /* background: linear-gradient(to bottom, aliceblue 0%, rgb(227, 248, 218) 100%, rgb(227, 248, 218) 100%); */
     
@@ -136,13 +140,31 @@ h1 {
 
 }
 
+
+#launchimg{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+} 
+
+
 #dragoncoin{
     
     width: 100%;
     max-width: 20vw;
     height: 100%;
 } 
+#dragonwelcome{
+    width: 100%;
+    max-width: fit-content;
+    height: 100%;
+}
+.welcome{
+    border-top: black solid 1vh;
+    background-color: #000000;
+}
 
+/* 
 
 .clock-section {
     display: flex;
@@ -152,7 +174,7 @@ h1 {
     padding: 6vw 6vw 20vw 6vw; 
     
     /* background: linear-gradient(to top, rgba(221,205,65,1) 0%, rgba(221,205,65,1) 50%, #1d771d 100%); */
-    background: linear-gradient(to bottom, rgb(227, 248, 218) 70%, aliceblue 100%, aliceblue 100%);
+    /* background: linear-gradient(to bottom, rgb(227, 248, 218) 70%, aliceblue 100%, aliceblue 100%);
 
     background-color: rgb(227, 248, 218)  ;
     color: rgb(14, 15, 14);
@@ -161,15 +183,23 @@ h1 {
     background-repeat: no-repeat;
     background-size: auto;
     border: 5em;
-} 
+}   */
 
 
+/* 
 #timeout-section{
     font-size: 8vw;
     border: #294F27 1.5vw dotted;
     padding: 5vw;
 
-} 
+}  */
+
+.launch{
+    display: flex;
+    justify-content: center;
+ 
+}
+
 .footer {
     position: fixed;
     left: 0;
